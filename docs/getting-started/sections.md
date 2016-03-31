@@ -8,9 +8,9 @@ Sections are wrappers for fields, a way to group multiple fields together. All f
 
 ```php
 <?php
-Kirki::add_section( 'custom_css', array(
-    'title'          => __( 'Custom CSS' ),
-    'description'    => __( 'Add custom CSS here' ),
+Kirki::add_section( 'section_id', array(
+    'title'          => __( 'My title' ),
+    'description'    => __( 'My descirption' ),
     'panel'          => '', // Not typically needed.
     'priority'       => 160,
     'capability'     => 'edit_theme_options',
